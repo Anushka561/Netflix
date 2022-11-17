@@ -162,15 +162,16 @@ section {
     top: 20px;
     left: 80px;
     width: 320px;
-    height: ;
+
     z-index: -1;
 }
 .download{
     border: 2px solid #fff;
     padding: 5px;
-    height:150px;
-    width:450px;
+    height:100px;
+    width:350px;
     gap:1em;
+    margin-left: 50px;
     border-radius: 10px;
     align-items: center;
     justify-content: space-between;
@@ -247,19 +248,23 @@ p {
 
 
 .input {
-
+justify-content: left;
     width: 750px;
     position: relative;
 }
 
 .input input {
-
+outline: 0;
     width: 550px;
     height: 3.6rem;
     padding: 25px;
     font-size: 1.3rem;
 }
+.main-line .input{
 
+    margin-right: 80px;
+    
+}
 
 
 .input .btn {
@@ -347,6 +352,11 @@ body,html{
         margin: 3px;
         text-align: center;
     }
+    .main-line .input{
+
+        margin-right: 0px;
+        
+    }
     .input{
         width:500px;
         margin: 5px;
@@ -397,7 +407,7 @@ text-align: left;
 
     }
   .media{
-    width:440px;
+    width:500px;
   }
     .third-page .media{
         padding:30px;
@@ -405,12 +415,13 @@ text-align: left;
     .vid1{
         top:70px;
         left:51px;
+        width: 400px;;
     }
     .vid2{
-        width:235px;
+        width:270px;
         top:22px;
         height:200px;
-        left:105px;
+        left:115px;
     }
     
   .p-1,  
@@ -471,7 +482,15 @@ font-size: 1.8rem;}
 .main-line{
     text-align: left;
 }
+.main-line .input{
 
+    margin-right: 0px;
+    
+}
+.first-page{
+    display:flex;
+    /* flex-direction: column-reverse; */
+}
     p{
         font-size: 1rem;
         margin: 10px;
@@ -482,17 +501,25 @@ font-size: 1.8rem;}
         font-weight: 100;
         text-align: center;
     }
+    .media{
+        width:420px;
+      }
+      .vid2{
+        top:15px;
+        left:93px;
+      }
     .input{
-        width:350px;
+        width:340px;
         justify-content: left;
 
     }
     .input input{
-        width:260px;
-        font-size: 1.1rem;
+        width:240px;
+        font-size: 1.2rem;
     }
     .input  .btn{
-        width:140px;
+        width:100px;
+    
     }
     .page h1{
         font-size: 1.9rem;
@@ -509,7 +536,7 @@ font-size: 1.8rem;}
         margin: 6% 0; 
     }
     .header{
-        padding: 20px;
+        padding: 15px;
         padding-top: 40px;
     }
     select{
@@ -520,12 +547,13 @@ font-size: 1.8rem;}
         margin-right:2px;
         width: 100px;
     }
-    .questions h2{
-        padding-left: 3px;
-    
-        font-size: 1.2rem;
+    .faq div h2{
+        
+        font-size: 1.4rem;
         font-weight: 200;
     }
+    .questions{
+    padding-left: 3px;}
     .footer p{
         text-align: left;
     }
